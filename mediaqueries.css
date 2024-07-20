@@ -2,22 +2,44 @@
 
 @media screen and (max-width: 1400px) {
     #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
+        display: flex;
+        /* flex-flow: column; */
+        /* gap: 20rem; */
+        /* background-color: blue; */
+        /* margin-bottom: 6rem; */
+        /* align-items: wrap; */
+    }
+
+    #hamburger-nav {
+        display: flex;
+        height: 200px;
     }
 
     .about-containers {
-        flex-wrap: wrap;
+        gap: 5rem;
+        margin-bottom: 2rem;
     }
 }
 
 
 @media screen and (max-width: 1200px) {
+
+     #profile {
+        display: flex;
+        height: 83vh;
+        /* flex-flow: column; */
+        gap: 20rem;
+        /* background-color: blue; */
+        /* margin-bottom: 6rem; */
+        /* align-items: wrap; */
+    }
+
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
+        height: 90px;
     }
     #experience, 
     .experience-details-container {
@@ -28,6 +50,11 @@
     .section-container {
         display: block;
     }
+    
+    .about-containers {
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
 
     .arrow {
         display: none;
@@ -35,13 +62,19 @@
 
     section,
     .section-container {
+        /* display: flex; */
+        /* flex-flow: column; */
+        justify-content: fit-content;
         height: fit-content;
+
     }
+
     section {
         margin: 0 5%;
     }
 
-    .section__pic-container {
+    .section__pic-container-about
+    .section__pic-container-profile{
         width: 275px;
         height: 275px;
         margin: 0 auto 2rem;
@@ -50,6 +83,51 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .section-container-custom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 400;
+        width: auto;
+        height: 100px;
+        gap: 1rem;
+        white-space: nowrap;
+        padding-top: 10%;
+    }
+    
+    .berkeley-logo {
+        width: 66px;
+        height: 66px;
+    }
+    
+    .section-college {
+        color: black;
+        font-size: 88%;
+    }
+    
+    li {
+        margin-left: 5%;
+    }
+    .section-coursework {
+        display: flex;
+        justify-content: center;
+        white-space: nowrap;
+        font-weight: 400;
+        font-size: 10%;
+        line-height: 0.5cm;
+        height: max-content;
+        padding-left: 6%;
+        /* background-color: blue; */
+    }
+
+
+
+
+
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -58,9 +136,17 @@
         height: 40vh;
     }
 
+    #hamburger-nav {
+        display: flex;
+        /* height: 120px; */
+        /* background-color: aqua; */
+        padding-top: 10px;
+    }
+
     #profile {
         height: 83vh;
-        margin-bottom: 0;
+        /* margin-bottom: 0px; */
+        /* background-color: blue; */
     }
     article {
         font-size: 1rem;
@@ -68,6 +154,7 @@
     footer nav {
         height: fit-content;
         margin-bottom: 2rem;
+        /* background-color: blue; */
     }
     .about-containers, .contact-info-upper-container, .btn-container {
         flex-wrap: wrap;
@@ -91,12 +178,22 @@
         gap: 0.5rem;
         text-align: center;
     }
-
-    .section__pic-container {
+    
+    .section__pic-container-profile {
         width: auto;
-        height: 46vw;
+        height: 350px;
+        justify-content: center;
+        /* background-color: blue; */
+    }
+    
+    .section__pic-container-about {
+        width: auto;
+        height: 50vw;
         justify-content: center;
     }
+
+
+
 
     .section__text__p2 {
         font-size: 1.25rem;

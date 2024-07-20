@@ -46,6 +46,7 @@ nav {
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+    font-weight: 400;
 }
 
 /* a tag is for a hyperlink */
@@ -64,6 +65,7 @@ a:hover {
 
 .logo {
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .logo:hover {
@@ -170,16 +172,19 @@ section {
 
 #profile {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
   }
 
-.section__pic-container {
+.section__pic-container-profile {
     display: flex;
-    height: 400px;
+    height: 500px;
     width: 400px;
     margin: auto 0;
+    justify-content: center;
+    /* background-color: blue; */
   }
 
 .section__text {
@@ -266,6 +271,7 @@ section {
 
 #about {
     position: relative;
+    margin-bottom: 20%;
 }
 
 .about-containers {
@@ -305,16 +311,64 @@ section {
 }
 
 .section-container {
-    gap: 4rem;
+    gap: 3rem;
     height: 80%;
 }
 
-.section__pic-container {
-    height: 400px;
-    width: 400px;
+.section__pic-container-about {
+    display: flex;
+    height: 300px;
+    width: 300px;
     margin: auto 0;
+    padding-top: 1.8rem;
 
 }
+
+/* ABOUT SECTION CUSTOM */
+
+#about {
+    position: relative;
+    margin-top: 10%;
+}
+.section-container-customs {
+    justify-content: center;
+}
+
+.section-container-custom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    width: auto;
+    height: 280px;
+    gap: 2rem;
+}
+
+.berkeley-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.section-college {
+    color: black;
+    font-size: 88%;
+}
+
+li {
+    margin-left: 5%;
+}
+.section-coursework {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    white-space: nowrap;
+    font-weight: 400;
+    font-size: 150%;
+    line-height: 1.1cm;
+    padding-left: 23%;
+}
+
 
 /* EXPERIENCE SECTION */
 

@@ -14,7 +14,7 @@
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#experience">Expeirence</a></li>
+                <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -41,15 +41,16 @@
 
     <!-- Profile -->
     <section id="profile">
-        <div class="section__pic-container">
+        <div class="section__pic-container-profile">
             <img src="./assets/profile-pic.png" alt="Yebon Byun profile picture">
         </div>
         <div class="section__text">
+            <br>
             <p class="section__text__p1">Hello I'm</p>
             <h1 class="title">Yebon Byun</h1>
-            <p class="section__text__p2">Developer</p>
+            <p class="section__text__p2">Data Science @ UC Berkeley</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')"> Download CV</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume - Yebon Byun.pdf')"> Download CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div> 
             <div id="socials-container">
@@ -60,12 +61,12 @@
     </section>
     
     <!-- About -->
-    <section id="about">
+    <!-- <section id="about">
         <p class="section__text__p1">Get To Know More</p>
         <h1 class="title">About Me</h1>
         <div class="section-container">
-            <div class="section__pic-container">
-                <img src="/assets/about-pic.png" alt="Profile picture" class="about-pic">
+            <div class="section__pic-container-about">
+                <img src="/assets/about-pic.JPG" alt="Profile picture" class="about-pic">
             </div>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -88,6 +89,66 @@
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
+    </section> -->
+
+    <!-- About Custom-->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <!-- <div class="section-container">
+            <div class="section__pic-container-about">
+                <img src="/assets/about-pic.JPG" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="/assets/experience.png" alt="experience icon" class="icon" />
+                        <h3>Experience</h3>
+                        <p>2+ years <br>Fronted Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="/assets/education.png" alt="education icon" class="icon" />
+                        <h3>Education</h3>
+                        <p>B.A. Bachelors Degree <br>Data Science</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quaerat eius at ipsa sint consectetur quo natus voluptate. Fugit dolore totam sapiente pariatur aliquam eveniet, nemo recusandae quisquam quaerat praesentium. Modi, vel eaque dolor, soluta consequatur veniam natus quasi distinctio recusandae rerum mollitia ullam repudiandae debitis sed temporibus facere corporis? 
+                    </p>
+                </div> 
+            </div>
+        </div> -->
+        <div class="section-container-customs">
+            <div class="section-container-custom">
+                <img src="/assets/berkeley-logo.png" alt="berkeley-logo" class="berkeley-logo">
+                <div class="section-college">
+                    <h2>University of California, Berkeley</h2>
+                    <h3>B.A. Data Science</h3>
+                    <h4>Expected Graduation: May 2025</h4>
+                </div>
+            </div>
+            <div class="section-coursework">
+                <h1>Relevant Cousework: </h1><br>
+                <h2>Computer Science: </h2><br>
+                    <ul>
+                        <li>The Structure and Interpretation of Computer Programs (CS61A)</li>
+                        <li>Data Structures (CS 61B)</li>
+                        <li>Introduction to Software Engineering & Web Development (CS 169A)</li>
+                    </ul>
+                    <br><h2>Data Science: </h1><br>
+                    <ul>
+                        <li>Foundations of Data Science (Data 8)</li>
+                        <li>Principles and Techniques of Data Science (Data 100)</li>
+                        <li>Linear Algebra and Differential Equations (Math 54)</li>
+                        <li>Advanced Linear Algebra (Math 110)</li>
+                        <li>Probability for Data Science (Data 140)</li>
+                        <li>Introduction to Machine Leanring (CS 189)</li>
+                    </ul>
+                    <br><p>* : in progress</p>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
 
     <!-- Experience -->
@@ -97,7 +158,128 @@
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Front Development</h2>
+                    <h2 class="experience-sub-title">Data Technologies</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Numpy</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Pandas</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Pytorch</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Tensorflow</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Spark</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Airflow</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Scikit-learn</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>C / C++</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Java</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>Ruby</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>R</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Database</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>SQL</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Technologies</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
@@ -116,61 +298,82 @@
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>SAAS</h3>
+                                <h3>Ajax</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>JavaScript</h3>
-                                <p>Basic</p>
+                                <h3>jQuery</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>TypeScript</h3>
-                                <p>Basic</p>
+                                <h3>React Native</h3>
+                                <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Material UI</h3>
+                                <h3>Flask</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                     </div>
                 </div>
                 <div class="details-container">
-                    <h2 class="experience-sub-title">BackendDevelopment</h2>
+                    <h2 class="experience-sub-title">Frameworks & Libraries</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>PostgresQL</h3>
+                                <h3>Redshift</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Node JS</h3>
+                                <h3>EC2</h3>
                                 <p>Experienced</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Express JS</h3>
+                                <h3>Matplotlib</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
-                                <h3>Git</h3>
+                                <h3>Node.js</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>EXPO</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>ggplot2</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                            <div>
+                                <h3>bs4</h3>
                                 <p>Intermediate</p>
                             </div>
                         </article>
@@ -241,7 +444,7 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
-                <p><a href="mailto:byb620@gmail.com">byb620@gmail.com</a></p>
+                <p><a href="mailto:byb620@gmail.com">byb620@berkeley.edu</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon">
@@ -255,7 +458,7 @@
             <div class="nav-links-container">
                 <ul class="nav-links">
                     <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Expeirence</a></li>
+                    <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
