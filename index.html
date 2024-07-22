@@ -129,14 +129,15 @@
                 </div>
             </div>
             <div class="section-coursework">
-                <h1>Relevant Cousework: </h1><br>
-                <h2>Computer Science: </h2><br>
+                <h1>Relevant Coursework  </h1><br>
+                <!-- <h1>* : in progress</h1><br> -->
+                <h2>Computer Science </h2><br>
                     <ul>
-                        <li>The Structure and Interpretation of Computer Programs (CS61A)</li>
+                        <li>The Structure and Interpretation of Computer Programs (CS 61A)</li>
                         <li>Data Structures (CS 61B)</li>
                         <li>Introduction to Software Engineering & Web Development (CS 169A)</li>
                     </ul>
-                    <br><h2>Data Science: </h1><br>
+                    <br><h2>Data Science </h1><br>
                     <ul>
                         <li>Foundations of Data Science (Data 8)</li>
                         <li>Principles and Techniques of Data Science (Data 100)</li>
@@ -145,7 +146,7 @@
                         <li>Probability for Data Science (Data 140)</li>
                         <li>Introduction to Machine Leanring (CS 189)</li>
                     </ul>
-                    <br><p>* : in progress</p>
+                    <!-- <br><p>* : in progress</p> -->
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
@@ -388,9 +389,16 @@
     <section id="projects">
         <p class="section__text__p1">Browse My Recent</p>
         <h1 class='title'>Projects</h1>
+        
         <div class="experience-details-container">
+            <div class="button-container">
+                <button class="filter-button active" onclick="filterSelection('all')">All</button>
+                <button class="filter-button" onclick="filterSelection('python')">Python</button>
+                <button class="filter-button" onclick="filterSelection('java')">Java</button>
+                <button class="filter-button" onclick="filterSelection('data')">Data</button>
+            </div>
             <div class="about-containers">
-                <div class="details-container color-container">
+                <div class="filter-div python details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-1.png" alt="Project" class="project-img">
                     </div>
@@ -404,7 +412,7 @@
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="filter-div python details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-2.png" alt="Project" class="project-img">
                     </div>
@@ -418,7 +426,21 @@
                         </button>
                     </div>
                 </div>
-                <div class="details-container color-container">
+                <div class="filter-div java details-container color-container">
+                    <div class="article-container">
+                        <img src="./assets/project-3.png" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
+                            Github
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
+                            Live Demo
+                        </button>
+                    </div>
+                </div>
+                <div class="filter-div data details-container color-container">
                     <div class="article-container">
                         <img src="./assets/project-3.png" alt="Project" class="project-img">
                     </div>
@@ -434,7 +456,7 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
 
     <!-- Contact -->
