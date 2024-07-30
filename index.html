@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Yebon Byun</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
+    
 <body>
     <!-- header -->
     <nav id="desktop-nav">
@@ -17,6 +19,40 @@
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <!-- <button class="gg-dark-mode"onclick="myFunction()"></button> -->
+                <button onclick="myFunction()">
+                    <svg width="30" height="30" id="light-icon">
+                      <circle cx="15" cy="15" r="6" fill="currentColor" />
+              
+                      <line
+                        id="ray"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        x1="15"
+                        y1="1"
+                        x2="15"
+                        y2="4"
+                      ></line>
+              
+                      <use href="#ray" transform="rotate(45 15 15)" />
+                      <use href="#ray" transform="rotate(90 15 15)" />
+                      <use href="#ray" transform="rotate(135 15 15)" />
+                      <use href="#ray" transform="rotate(180 15 15)" />
+                      <use href="#ray" transform="rotate(225 15 15)" />
+                      <use href="#ray" transform="rotate(270 15 15)" />
+                      <use href="#ray" transform="rotate(315 15 15)" />
+                    </svg>
+                    <svg width="30" height="30" id="dark-icon">
+                      <path
+                        fill="currentColor"
+                        d="
+                        M 23, 5
+                        A 12 12 0 1 0 23, 25
+                        A 12 12 0 0 1 23, 5"
+                      />
+                    </svg>
+                </button>
             </ul>
         </div>
     </nav>
@@ -35,6 +71,40 @@
                 <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
                 <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                 <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <!-- <button class="btn btn-color-2" onclick="myFunction()">Toggle dark mode</button> -->
+                <button onclick="myFunction()">
+                    <svg width="30" height="30" id="light-icon">
+                      <circle cx="15" cy="15" r="6" fill="currentColor" />
+              
+                      <line
+                        id="ray"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        x1="15"
+                        y1="1"
+                        x2="15"
+                        y2="4"
+                      ></line>
+              
+                      <use href="#ray" transform="rotate(45 15 15)" />
+                      <use href="#ray" transform="rotate(90 15 15)" />
+                      <use href="#ray" transform="rotate(135 15 15)" />
+                      <use href="#ray" transform="rotate(180 15 15)" />
+                      <use href="#ray" transform="rotate(225 15 15)" />
+                      <use href="#ray" transform="rotate(270 15 15)" />
+                      <use href="#ray" transform="rotate(315 15 15)" />
+                    </svg>
+                    <svg width="30" height="30" id="dark-icon">
+                      <path
+                        fill="currentColor"
+                        d="
+                        M 23, 5
+                        A 12 12 0 1 0 23, 25
+                        A 12 12 0 0 1 23, 5"
+                      />
+                    </svg>
+                </button>
             </div>
         </div>
     </nav>
@@ -165,28 +235,28 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Numpy</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Pandas</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Pytorch</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Tensorflow</h3>
-                                <p>Basic</p>
+                                <!-- <p>Basic</p> -->
                             </div>
                         </article>
 
@@ -194,21 +264,21 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Spark</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Airflow</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Scikit-learn</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                     </div>
@@ -216,46 +286,45 @@
                 <div class="details-container">
                     <h2 class="experience-sub-title">Programming Languages</h2>
                     <div class="article-container">
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                        <article>                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Python</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>C / C++</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Java</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>JavaScript</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Ruby</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>R</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                     </div>
@@ -267,14 +336,14 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>SQL</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>MongoDB</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                     </div>
@@ -286,42 +355,42 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>HTML</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>CSS</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Ajax</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>jQuery</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>React Native</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Flask</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                     </div>
@@ -333,49 +402,49 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Redshift</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>EC2</h3>
-                                <p>Experienced</p>
+                                <!-- <p>Experienced</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Matplotlib</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Node.js</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>EXPO</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>ggplot2</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>bs4</h3>
-                                <p>Intermediate</p>
+                                <!-- <p>Intermediate</p> -->
                             </div>
                         </article>
                     </div>
@@ -397,63 +466,243 @@
                 <button class="filter-button" onclick="filterSelection('java')">Java</button>
                 <button class="filter-button" onclick="filterSelection('data')">Data</button>
             </div>
+
+            <!-- HOG -->
             <div class="about-containers">
-                <div class="filter-div python details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-1.png" alt="Project" class="project-img">
+                <div class="filter-div python details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61A-hog-cover.jpg" alt="Project" class="project-img">
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Live Demo
-                        </button>
+                    <h2 class="project-title" 
+                        data-title="Hog" 
+                        data-description="A strategic dice game simulation emphasizing decision-making and probability analysis.<br><br>Utilizes <b><i>functional programming</i></b> and <b><i>statistical modeling</i></b>.<br><br><b><i>Python</i></b>"
+                        data-video="./assets/CS61A-hog.mov"
+                        data-image="./assets/CS61A-hog-cover.jpg"
+                        onclick="openModal(this)">
+                        Hog
+                    </h2>
+                </div>
+
+                <!-- Autocorrected Typing Software -->
+
+                <div class="filter-div python details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61A-cats-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Autocorrected Typing Software" 
+                        data-description="A typing test game designed to enhance typing speed and accuracy through interactive challenges.<br><br>Integrates <b><i>text processing</i></b> and <b><i>algorithm development.</i ></b><br><br><i><b>Python</b></i>"
+                        data-video="./assets/CS61A-cats.mov"
+                        data-image="./assets/CS61A-cats-cover.jpg" 
+                        onclick="openModal(this)">
+                        Autocorrected Typing Software
+                    </h2>
+                    <div class="btn-container"></div>
+                </div>
+
+                <!-- Ants vs Bees -->
+                <div class="filter-div python details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61A-ants-cover.png" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Ants vs Bees" 
+                        data-description="Spin off of the popular game Plants Vs. Zombies.<br><br>Combines <b><i> functional</i></b> and <b><i> object-oriented</i></b> programming paradigms."
+                        data-image="./assets/CS61A-ants-cover.png" 
+                        onclick="openModal(this)">
+                        Ants vs Bees
+                    </h2>
+                    <div class="btn-container"></div>
+                </div>
+
+                <!-- Scheme -->
+                <div class="filter-div python details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61A-scheme-cover.png" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Scheme" 
+                        data-description="Developed an <b><i>interpreter</i></b> for a subset of the Scheme language that syntactically <b><i>tokenizes</i></b> through inputs. <br><br>Implemented with <b><i>tail recursion.</i></b><br><br><b><i>Python</i></b>"
+                        data-image="./assets/CS61A-scheme-cover.png" 
+                        onclick="openModal(this)">
+                        Scheme
+                    </h2>
+                </div>           
+
+                <!-- Enigma -->
+                <div class="filter-div python details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61A-enigma-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Enigma" 
+                        data-description="Replicated the WWII German encryption machine that <b><i>parses</i></b> and <b><i>tokenizes</i></b> input with various <b><i>permutations</i></b> to <b><i>encode</i></b> and <b><i>decode</i></b> messages.<br><br><b><i>Java</i></b>"
+                        data-image="./assets/CS61A-enigma-cover.jpg" 
+                        onclick="openModal(this)">
+                        Enigma
+                    </h2>
+                </div>
+
+                <!-- World Progress -->
+                <div class="filter-div data details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/DATA8-world-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Housing" 
+                        data-description="Explored data from Gapminder.org, which aggregates public statistics to provide a fact-based view of global changes.<br><br>Recreated and extended visualizations using data from Systema Globalis.<br><br>Dedicated to Hans Rosling, who championed data-driven understanding of global development challenges.<br><br><b><i>Python, Pandas, NumPy, Matplotlib, Seaborn</i></b>"
+                        data-image="./assets/DATA8-world-cover.jpg" 
+                        onclick="openModal(this)">
+                        World Progress
+                    </h2>
+                </div>
+
+                <!--  Diet and Disease -->
+                <div class="filter-div data details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/DATA8-diet-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Housing" 
+                        data-description="Analyze various causes of cardiovascular disease and propose prevention and treatment methods.<br><br>Explore different factors related to cardiovascular disease through data analysis.<br><br>Utilize statistical methods and visualization to derive results.<br><br><b><i>Python, Pandas, NumPy, Matplotlib, Seaborn</i></b>"
+                        data-image="./assets/DATA8-diet-cover.jpg" 
+                        onclick="openModal(this)">
+                        Diet and Disease
+                    </h2>
+                </div>
+
+                <!-- Classifying Movies -->
+                <div class="filter-div data details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/DATA8-movie-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Housing" 
+                        data-description="Develop a k-nearest-neighbors classifier.<br><br>Test and evaluate the performance of the classifier.<br><br><b><i>Python, scikit-learn, Pandas, NumPy, Matplotlib</i></b>"
+                        data-image="./assets/DATA8-movie-cover.jpg" 
+                        onclick="openModal(this)">
+                        Classifying Movies
+                    </h2>
+                </div>
+                
+                <!-- Housing -->
+                <div class="filter-div data details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/DATA100-housing-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Housing" 
+                        data-description="Built a <b><i>linear regression</i></b> model that predicts the housing prices in Ames, Iowa using  <b><i>feature engineering</i></b> and  <b><i>cross validation</i></b>.<br><br> <b><i>Python, sklearn, Pandas</i></b>"
+                        data-image="./assets/DATA100-housing-cover.jpg" 
+                        onclick="openModal(this)">
+                        Housing
+                    </h2>
+                </div>
+
+                <!-- Spam & Ham -->
+                <div class="filter-div data details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/DATA100-spam-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Spam & Ham" 
+                        data-description="Built a <b><i>logistic regression</i></b> model to predict whether an email was spam or ham. Received a <b><i>92% accuracy</i></b> on the testing set.<br><br><b><i>Python, sklearn, Pandas</i></b>"
+                        data-image="./assets/DATA100-spam-cover.jpg" 
+                        onclick="openModal(this)">
+                        Spam & Ham
+                    </h2>
+                </div>
+
+                <!-- 2048   -->
+                <div class="filter-div java details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61B-2048-cover.png" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Gitlet" 
+                        data-description="Built a <b><i>Java</i></b> program implementing the core logic of the 2048 game. This project focused on understanding fundamental Java aspects such as classes, methods, and constructors while practicing <b><i>model-view-controller (MVC)</i></b> and <b><i>observer design patterns.</i></b><br><br><b><i>Java, IntelliJ, JUnit</i></b>"
+                        data-video="./assets/CS61B-2048.mov"
+                        data-image="./assets/CS61B-2048-cover.png" 
+                        onclick="openModal(this)">
+                        2048
+                    </h2>
+                </div>
+
+                <!-- Deques -->
+                <div class="filter-div java details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61B-deque-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Deques" 
+                        data-description="Implementation of a double-ended queue (deque) using dynamic arrays to support efficient addition and removal of elements from both ends.<br><br>Emphasizes <b><i>data structures</i></b> and <b><i>algorithm optimization.</i></b><br><br><b><i>Java</i></b>"
+                        data-image="./assets/CS61B-deque-cover.jpg" 
+                        onclick="openModal(this)">
+                        Deques
+                    </h2>
+                </div>    
+                
+                <!-- Ngordnet -->
+                <div class="filter-div java details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61B-ngordnet-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Ngordnet" 
+                        data-description="A project focused on creating a procedurally generated world and navigation algorithms within it.<br><br>Combines <b><i>graph theory</i></b>, <b><i>search algorithms</i></b>, and <b><i>procedural generation.</i></b><br><br><b><i>Java</i></b>"
+                        data-image="./assets/CS61B-ngordnet.png" 
+                        onclick="openModal(this)">
+                        Ngordnet
+                    </h2>
+                </div>
+
+                <!-- BYOW -->
+                <div class="filter-div java details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61B-byow-cover.png" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="BYOW" 
+                        data-description="A project to create a mapping application, including features like route finding and location search.<br><br>Incorporates <b><i>graph algorithms</i></b>, <b><i>spatial data structures</i></b>, and <b><i>GUI development</i></b>.<br><br><b><i>Java</i></b>"
+                        data-video="./assets/CS61B-byow.mov"
+                        data-image="./assets/CS61B-byow-cover.png" 
+                        onclick="openModal(this)">
+                        BYOW
+                    </h2>
+                </div>
+
+                <!-- Gitlet  -->
+                <div class="filter-div java details-container-project color-container">
+                    <div class="article-container" onclick="openModal(this)">
+                        <img src="./assets/CS61B-gitlet-cover.jpg" alt="Project" class="project-img">
+                    </div>
+                    <h2 class="project-title" 
+                        data-title="Gitlet" 
+                        data-description="Implemented a version-control system using <b><i>sha-1</i></b> and a parallel representation of classes as <b><i>serialized</i></b> files to enure <b><i>persistence</i></b>.<br><br> <b><i></i></b>Java"
+                        data-image="./assets/CS61B-gitlet-cover.jpg" 
+                        onclick="openModal(this)">
+                        Gitlet
+                    </h2>
+                </div>
+
+                
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                        <div class="modal-header">
+                            <h2 id="modal-title">Project Title</h2>
+                        </div>
+                        <div class="modal-body">
+                            <img id="modal-image" src="" alt="Project Image" class="modal-image" style="display:none;">
+                            <video id="modal-video" class="modal-video" controls style="display:none;">
+                                <source id="modal-video-source" src="" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div id="modal-description" class="modal-description">Project description will go here.</div>
+                        </div>
                     </div>
                 </div>
-                <div class="filter-div python details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-2.png" alt="Project" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Two</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="filter-div java details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
-                <div class="filter-div data details-container color-container">
-                    <div class="article-container">
-                        <img src="./assets/project-3.png" alt="Project" class="project-img">
-                    </div>
-                    <h2 class="experience-sub-title project-title">Project Three</h2>
-                    <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Github
-                        </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https:/gitgub.com/'">
-                            Live Demo
-                        </button>
-                    </div>
-                </div>
+            
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
