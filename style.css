@@ -454,8 +454,11 @@ li {
 
 .button-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
     margin-top: 1.5rem;
+    box-sizing: border-box;
 }
 
 .article-container {
@@ -527,6 +530,7 @@ article .icon {
     /* background-color: lig?htwgu; */
     cursor: pointer;
     font-size: 1rem;
+    transition: background-color 0.3s ease;
     
 }
 
@@ -655,12 +659,13 @@ body.dark-mode .menu-links {
     padding: 20px;
     padding-top: 3px;
     width: fit-content;
-    height: fit-content;
+    height: 100vh;
     max-width: 90%;
     background-color: white;
     display: flex;
     flex-direction: column;
     font-size: 1.7rem;
+    box-sizing: border-box;
 }
 
 .close {
@@ -687,6 +692,10 @@ body.dark-mode .menu-links {
 
 .modal-body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
 }
 
 .modal-image {
@@ -694,17 +703,22 @@ body.dark-mode .menu-links {
     height: auto;
     margin-right: 20px;
     border-radius: 2rem;
-    padding: 1rem;
+    /* padding: 1rem; */
+    padding-bottom: 3%;
 }
 
 .modal-video {
     height: auto;
     max-width: 800px;
     margin-right: 20px;
+    box-sizing: border-box;
+    padding-bottom: 3%;
 }
 
 .modal-description {
     width: 50%;
+    box-sizing: border-box; 
+    overflow-wrap: break-word;
 }
 
 .close {

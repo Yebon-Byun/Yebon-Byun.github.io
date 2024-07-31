@@ -374,6 +374,19 @@
     gap: 1rem;
 }
 
+.project-title {
+    margin: 0rem;
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    /* color: black; */
+}
+
+.project-img {
+    border-radius: 2rem;
+    width: 15rem;
+    height: 15rem;
+}
+
 .project-btn {
     /* color: black; */
     border-color: rgb(163, 163, 163);
@@ -388,6 +401,44 @@ body.dark-mode a {
     color: white;
 }
 
+.button-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px; 
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+.modal-content {
+    width: 80%;
+    max-height: 70vh;
+    font-size: 1.1rem;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    overflow: auto;
+}
+
+.modal-video, .modal-description {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 5%;
+}
+.modal-image {
+    width: 70%;
+    margin: auto;
+}
+
+.modal-description {
+    font-size: 0.9rem;
+}
 
 }
 
