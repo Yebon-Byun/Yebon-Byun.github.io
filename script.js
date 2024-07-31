@@ -151,6 +151,22 @@ document.addEventListener('DOMContentLoaded', (event) => {
 });
 
 // Modal
+// 웹사이트 다크 모드 상태를 저장하는 함수
+function setDarkMode(isDark) {
+  if (isDark) {
+      document.body.classList.add('dark-mode');
+      localStorage.setItem('dark-mode', 'true');
+  } else {
+      document.body.classList.remove('dark-mode');
+      localStorage.setItem('dark-mode', 'false');
+  }
+}
+
+// 웹사이트 로드 시 다크 모드 상태를 적용하는 함수
+function applyStoredDarkMode() {
+  const isDark = localStorage.getItem('dark-mode') === 'true';
+  setDarkMode(isDark);
+}
 
 function openModal(element) {
   let title, description, image, video;
@@ -189,6 +205,13 @@ function openModal(element) {
   }
 
   document.getElementById('myModal').style.display = "block";
+
+  // 모달이 열릴 때 다크 모드 적용
+  if (document.body.classList.contains('dark-mode')) {
+      document.getElementById('myModal').classList.add('dark-mode');
+  } else {
+      document.getElementById('myModal').classList.remove('dark-mode');
+  }
 }
 
 function closeModal() {
@@ -203,3 +226,24 @@ window.onclick = function(event) {
       document.getElementById('modal-video').pause();
   }
 }
+
+// 다크 모드 토글 함수
+function toggleDarkMode() {
+  const isDark = !document.body.classList.contains('dark-mode');
+  setDarkMode(isDark);
+
+  // 모달이 열려 있을 때 다크 모드 적용
+  if (document.getElementById('myModal').style.display === 'block') {
+      if (isDark) {
+          document.getElementById('myModal').classList.add('dark-mode');
+      } else {
+          document.getElementById('myModal').classList.remove('dark-mode');
+      }
+  }
+}
+
+// 웹사이트 로드 시 다크 모드 상태 적용
+document.addEventListener('DOMContentLoaded', applyStoredDarkMode);
+
+// 예시: 버튼 클릭으로 다크 모드 전환
+document.getElementById('toggleModeButton').addEventListener('click', toggleDarkMode);
