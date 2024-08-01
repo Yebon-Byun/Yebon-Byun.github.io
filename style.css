@@ -660,10 +660,12 @@ body.dark-mode .menu-links {
     padding: 20px;
     padding-top: 3px;
     width: fit-content;
-    height: 100vh;
-    max-width: 90%;
+    height: fit-content;
+    max-width: 93%;
     background-color: white;
     display: flex;
+    position: relative;
+    top: 7%;
     flex-direction: column;
     font-size: 1.7rem;
     box-sizing: border-box;
