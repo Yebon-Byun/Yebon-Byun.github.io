@@ -1,0 +1,6 @@
+ffmpeg -i /assets/img/projects/CS61A-hog.mov -vcodec h264 -acodec aac /assets/img/projects/CS61A-hog.mp4
+
+ffmpeg -i CS61A-cats.mov -vcodec h264 -acodec aac CS61A-cats.mp4
+ffmpeg -i CS61B-2048.mov -vcodec h264 -acodec aac CS61B-2048.mp4
+ffmpeg -i CS61B-byow.mov -vcodec h264 -acodec aac CS61B-byow.mp4
+

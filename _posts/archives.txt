@@ -1,0 +1,6 @@
+* sidebar.html 
+profile(avatar) 레이아웃 변경을 위해 sidebar.html class="rounded-circle" 삭제했음
+<a href="{{ '/' | relative_url }}" id="avatar" class="rounded-circle">
+
+* _sidebar.scss
+_sidebar.scss에서 
