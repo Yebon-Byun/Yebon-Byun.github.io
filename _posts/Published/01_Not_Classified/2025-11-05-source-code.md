@@ -1,5 +1,4 @@
 ---
-published: false
 title: Open Source / Source Code 분석은 왜 필요할까?
 description: How to Dive into an Open-Source Codebase?
 author: yebon
