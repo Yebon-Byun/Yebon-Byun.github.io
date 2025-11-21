@@ -1,7 +1,7 @@
 ---
 title: 개발 프로젝트 시작하기
 description: How to start software projcets from scratch?
-author: Yebon Byun
+author: yebon
 date: 2025-11-07 09:02:00 +0900
 categories: ["Not Classified"]
 tags: ["Not Classified", "Projects"]

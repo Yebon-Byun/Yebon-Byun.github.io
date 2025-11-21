@@ -1,7 +1,7 @@
 ---
-title: Open Source / Source Code 분석에 필요한 마인드셋
+title: Open Source / Source Code 분석은 왜 필요할까?
 description: How to Dive into an Open-Source Codebase?
-author: Yebon Byun
+author: yebon
 date: 2025-11-05
 categories: ["Not Classified"]
 tags: ["Not Classified", "Open Source", "Source Code"]

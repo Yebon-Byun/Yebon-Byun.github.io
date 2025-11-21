@@ -1,7 +1,7 @@
 ---
 title: Google Preparation - 1
 description: Google Careers on Air 제공 정보
-author: Yebon Byun
+author: yebon
 date: 2025-11-07
 categories: ["Not Classified"]
 tags: ["Not Classified", "Google"]

@@ -1,47 +1,25 @@
 <!-- markdownlint-disable-next-line -->
-<div align="center">
+<div align="left">
 
   <!-- markdownlint-disable-next-line -->
-  # Chirpy Jekyll Theme
+  # Yebon's Blog
 
-  A minimal, responsive, and feature-rich Jekyll theme for technical writing.
-
-  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
-  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
-  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
-  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
-  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
-
-  [**Live Demo** →][demo]
-
-  [![Devices Mockup](https://chirpy-img.netlify.app/commons/devices-mockup.png)][demo]
+  This website is built on top of the [Jekyll Chirpy Theme](https://github.com/cotes2020/jekyll-theme-chirpy), developed by cotes2020. I customized the layouts, components, JavaScript logic (projects.json, modal system), and overall styling to build a lightweight, responsive personal portfolio that showcases my projects, blogs, technical experiments, and career journey. The site is optimized for both desktop and mobile browsing and designed to be fast, maintainable, and easy to extend.
 
 </div>
 
 ## Features
 
-- Dark Theme
-- Localized UI language
-- Pinned Posts on Home Page
-- Hierarchical Categories
-- Trending Tags
-- Table of Contents
-- Last Modified Date
-- Syntax Highlighting
-- Mathematical Expressions
-- Mermaid Diagrams & Flowcharts
-- Dark Mode Images
-- Embed Media
-- Comment Systems
-- Built-in Search
-- Atom Feeds
-- PWA
-- Web Analytics
-- SEO & Performance Optimization
+- Technical Blog with categories.
+- Project Gallery with dynamic modals (loaded from projects.json).
+- Mobile-friendly layout with optimized images and videos.
+- Fast Build & Deployment via GitHub Pages.
 
-## Documentation
+## Contact
 
-To learn how to use, develop, and upgrade the project, please refer to the [Wiki][wiki].
+- Portfolio: https://yebon-byun.github.io
+- LinkedIn: https://linkedin.com/in/yebon-byun
+- Email: yebon.byun@berkeley.edu
 
 ## Contributing
 
@@ -50,6 +28,12 @@ to learn, inspire, and create. Any contributions you make are greatly appreciate
 For details, see the "[Contributing Guidelines][contribute-guide]".
 
 ## Credits
+
+  [![CI](https://img.shields.io/github/actions/workflow/status/cotes2020/jekyll-theme-chirpy/ci.yml?logo=github)][ci]&nbsp;
+  [![Codacy Badge](https://img.shields.io/codacy/grade/4e556876a3c54d5e8f2d2857c4f43894?logo=codacy)][codacy]&nbsp;
+  [![GitHub license](https://img.shields.io/github/license/cotes2020/jekyll-theme-chirpy?color=goldenrod)][license]&nbsp;
+  [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy?&logo=RubyGems&logoColor=ghostwhite&label=gem&color=orange)][gem]&nbsp;
+  [![Open in Dev Containers](https://img.shields.io/badge/Dev_Containers-Open-deepskyblue?logo=linuxcontainers)][open-container]
 
 ### Contributors
 

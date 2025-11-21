@@ -10,9 +10,11 @@ order: 4
 ## 👋 Hello, I'm **Yebon Byun**
 
 I'm passionate about building **AI systems that bridge research and production**, with a strong focus on **machine learning engineering** and **backend development**.  
+
 My recent projects include a **De-identification (BiLSTM-CRF)** model for privacy protection and an **AI Note** platform integrating **FastAPI**, **Docker**, **Ray Serve**, and **MySQL**.
 
 I enjoy designing clean, scalable, and maintainable systems following **OOP and SOLID principles**, and translating ideas into production-ready AI applications.  
+
 My ultimate goal is to create **human-centered AI services** that make data intelligent, accessible, and impactful.
 
 ---
@@ -24,6 +26,7 @@ My ultimate goal is to create **human-centered AI services** that make data inte
     <strong>University of California, Berkeley</strong><br>
     B.A. in Data Science (Applied Mathematics &amp; Modeling)<br>
     <em>Expected Graduation: August 2026 (included summer sessions)</em>
+    <a href="/assets/resume/Resume_Yebon_Byun.pdf" target="_blank" class="resume-btn"> <b>Resume</b> </a>
   </div>
 </div>
 
@@ -34,7 +37,7 @@ My ultimate goal is to create **human-centered AI services** that make data inte
 
 ### Machine Learning & Deep Learning
 - [Introduction to Machine Learning (CS 189)](https://people.eecs.berkeley.edu/~jrs/189/)
-- Introduction to Artificial Intellicence (CS 188)
+- [Introduction to Artificial Intellicence (CS 188)](https://inst.eecs.berkeley.edu/~cs188/fa25/)
 
 ### Computer Science
 - [The Structure and Interpretation of Computer Programs (CS 61A)](https://cs61a.org/)
@@ -52,6 +55,5 @@ My ultimate goal is to create **human-centered AI services** that make data inte
 ---
 
 ## 💡 Interests
-- **AI/ML Engineering · Backend Systems · Data Infrastructure**  
-- **MLOps & Model Serving · Applied NLP (De-identification)**  
-- **Scalable AI Services (FastAPI, Docker, Ray)**
+- **ML Engineering & MLOps · Applied NLP Service(De-identification)**
+- **Backend Development · Distributed / Cloud Systems**
