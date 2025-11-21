@@ -7,6 +7,15 @@ order: 4
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 
+<div class="ig-grid">
+  <div><img src="/assets/img/about/p1.jpeg"></div>
+  <div><img src="/assets/img/about/p2.jpeg"></div>
+  <div><img src="/assets/img/about/p3.jpeg"></div>
+  <div><img src="/assets/img/about/p4.jpeg"></div>
+  <div><img src="/assets/img/about/p5.jpeg"></div>
+  <div><img src="/assets/img/about/p6.jpeg"></div>
+</div>
+
 ## 👋 Hello, I'm **Yebon Byun**
 
 I'm passionate about building **AI systems that bridge research and production**, with a strong focus on **machine learning engineering** and **backend development**.  
@@ -25,7 +34,7 @@ My ultimate goal is to create **human-centered AI services** that make data inte
   <div>
     <strong>University of California, Berkeley</strong><br>
     B.A. in Data Science (Applied Mathematics &amp; Modeling)<br>
-    <em>Expected Graduation: August 2026 (included summer sessions)</em>
+    <em>Expected Graduation: August 2026 (included summer sessions)</em><br>
     <a href="/assets/resume/Resume_Yebon_Byun.pdf" target="_blank" class="resume-btn"> <b>Resume</b> </a>
   </div>
 </div>
