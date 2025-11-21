@@ -1,7 +1,7 @@
 ---
 title: Google OA & Interviews
 description: How to start software projcets from scratch?
-author: I’ll talk with my friend and find a good time for the tour. I’ll let you know soon!
+author: yebon
 date: 2025-11-07 09:02:00 +0900
 categories: ["Not Classified"]
 tags: ["Not Classified", "Google"]
