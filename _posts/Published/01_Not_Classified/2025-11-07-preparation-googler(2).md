@@ -1,4 +1,5 @@
 ---
+published: false
 title: Google OA & Interviews
 description: How to start software projcets from scratch?
 author: yebon

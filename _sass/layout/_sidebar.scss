@@ -54,14 +54,16 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   #avatar {
-    display: block;
+    display: flex; /* 아이템을 flex로 정렬 */
+    align-items: center; /* 세로 가운데 */
+    justify-content: center; /* 가로 가운데 */
     border-radius: 15px;
     background-color: white;
     width: 6.5rem;
     height: 6.5rem;
     overflow: hidden;
     box-shadow: var(--avatar-border-color) 0 0 0 2px;
-    transform: translateZ(0); /* fixed the zoom in Safari */
+    transform: translateZ(0);
 
     @include bp.sm {
       width: 9.5rem;
@@ -69,12 +71,12 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     img {
+      width: 130%; /* 부모 크기 단위로 꽉 채우기 */
+      height: 130%; /* 정사각형 박스 안에서 균일하게 채움 */
+      object-fit: contain; /* 이미지 형태를 그대로 유지 */
+      object-position: center; /* ⭐ 정확히 중앙 배치 */
       transition: transform 0.5s;
-      display: flex;
-      align-self: center;
-      justify-self: center;
-      width: 90%;
-      transform: translateY(-22px);
+      transform: none;
 
       &:hover {
         transform: scale(1.8);
