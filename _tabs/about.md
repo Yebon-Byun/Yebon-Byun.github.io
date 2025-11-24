@@ -57,7 +57,8 @@ My ultimate goal is to create **human-centered AI services** that make data inte
 - [Foundations of Data Science (Data 8)](https://www.data8.org/fa21/)  
 - Principles and Techniques of Data Science (Data 100)  
 - Linear Algebra and Differential Equations (Math 54)  
-- Advanced Linear Algebra (Math 110)  
+- Advanced Linear Algebra (Math 110) 
+- Discrete Mathematics (Math 195) 
 - [Probability for Data Science (Data 140)](https://data140.org/)
 
 
