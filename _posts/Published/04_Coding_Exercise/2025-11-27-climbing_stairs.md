@@ -85,8 +85,7 @@ def climb_stairs(n):
 # Space Complexity: O(1)
 ```
 [1],[2] 해결 방법들을 보면 피보나치 수열의 진행, 계산 방식과 동일함을 알 수 있습니다. 피보나치 수열의 계산은 첫 번째 두 번째가 1로 세팅이 되는 것을 떠올린다면, 이 해결방법 또한 초기 두 수의 세팅을 통해 결과값을 계산해낼 수 있음을 알 수 있습니다.  
-<img src="https://github.com/user-attachments/assets/b307e788-b36c-40de-b371-66ab3d534475" alt="Alt Text" width="400"><br><br>
-
+<img src="https://github.com/user-attachments/assets/aaa0fb00-b021-48d6-ba9e-f4ccdeef4232" alt="Alt Text" width="400">
 
 #### **[3] DP(Top-Down) — Memoization & Recuresion**
 ```python
