@@ -1,6 +1,6 @@
 ---
-title: '[1-D Dynamic Programming] Climbing Stairs'
-description: 'You can climb with either 1 or 2 steps at a time.'
+title: '[1D Dynamic Programming] Climbing Stairs'
+description: 'You can climb with either 1 or 2 steps at a time. Return the number of distinct ways to climb to the top of the staircase.'
 author: yebon
 date: 2025-11-27
 categories: ["Data Structures and Algorithms"]
@@ -61,7 +61,8 @@ def climb_stairs(n):
 # Time Complexity: O(n)
 # Space Complexity: O(n)
 ```
-![image](https://private-user-images.githubusercontent.com/96388412/519552661-a101229e-587c-4c13-84f7-38f9fc9bf9b3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQyMjcwMjIsIm5iZiI6MTc2NDIyNjcyMiwicGF0aCI6Ii85NjM4ODQxMi81MTk1NTI2NjEtYTEwMTIyOWUtNTg3Yy00YzEzLTg0ZjctMzhmOWZjOWJmOWIzLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTI3VDA2NTg0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWU1MDY0OTM4MWFjOWRjZjg2NTNkNTVmMTViM2ExZDgzZGNjMjNmNjZjYWYxYmU2NWJiMDdiZGE1ZWExMzg2ZTQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Hl3yt1eoMD08r4XwtWy2EWoB8f_gY_MHMEo1w2uozAw)<br><br>
+![image](https://github.com/user-attachments/assets/a101229e-587c-4c13-84f7-38f9fc9bf9b3)
+<br><br>
 
 #### **[2] Dynamic Programming(Space-Optimized Bottom-Up)**
 이 경우는 Bottom-up tabulation을 dp배열을 굳이 생성하지 않고 변수 2개로 최적화하여 풀어낸 방법입니다. 사실 코드상으로 보기엔 가장 간단하고 최적화된 방법입니다.<br>  
@@ -83,9 +84,8 @@ def climb_stairs(n):
 # Time Complexity: O(n)
 # Space Complexity: O(1)
 ```
-[1],[2] 해결 방법들을 보면 피보나치 수열의 진행, 계산 방식과 동일함을 알 수 있습니다. 피보나치 수열의 계산은 첫 번째 두 번째가 1로 세팅이 되는 것을 떠올린다면, 이 해결방법 또한 초기 두 수의 세팅을 통해 결과값을 계산해낼 수 있음을 알 수 있습니다.
-
-![image](https://private-user-images.githubusercontent.com/96388412/519974835-b307e788-b36c-40de-b371-66ab3d534475.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQzMDc0OTgsIm5iZiI6MTc2NDMwNzE5OCwicGF0aCI6Ii85NjM4ODQxMi81MTk5NzQ4MzUtYjMwN2U3ODgtYjM2Yy00MGRlLWIzNzEtNjZhYjNkNTM0NDc1LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTI4VDA1MTk1OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWY3MGM4YmEzMGQzZDMwOWZkNjRmNmYwMDRiMTgyYjc2N2Y1OThmMjc3MTgyN2Y5ZjgxYzAzNjE2MjI1Y2E4OGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.aH3knGLdeibSM6n11pOXwMJ1B41csOsrbqWxI41ksoE)<br><br>
+[1],[2] 해결 방법들을 보면 피보나치 수열의 진행, 계산 방식과 동일함을 알 수 있습니다. 피보나치 수열의 계산은 첫 번째 두 번째가 1로 세팅이 되는 것을 떠올린다면, 이 해결방법 또한 초기 두 수의 세팅을 통해 결과값을 계산해낼 수 있음을 알 수 있습니다.  
+<img src="https://github.com/user-attachments/assets/b307e788-b36c-40de-b371-66ab3d534475" alt="Alt Text" width="400"><br><br>
 
 
 #### **[3] Dynamic Programming(Top-Down) — Memoization & Recuresion**
@@ -109,7 +109,7 @@ def climb_stairs(n):
 # Time: O(n)
 # Space: O(n)
 ```
-![image](https://private-user-images.githubusercontent.com/96388412/519913551-4a616157-5113-497d-ba62-ac87c637fdff.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjQyODc3MjQsIm5iZiI6MTc2NDI4NzQyNCwicGF0aCI6Ii85NjM4ODQxMi81MTk5MTM1NTEtNGE2MTYxNTctNTExMy00OTdkLWJhNjItYWM4N2M2MzdmZGZmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTExMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMTI3VDIzNTAyNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTQ5MmNiZmJmYmJhZDg1ODI2NjNkNDcxZjM1NDU1OWU3ZDM3MGJmNzJkZDE2YTBjYWRmMzg3NWEzNTFkMjUzNDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.QdqJljd8bA5c7H3eq-gERd0BwGdt-nQq1RzJqH3tLys)
+<img src="https://github.com/user-attachments/assets/4a616157-5113-497d-ba62-ac87c637fdff" alt="Alt Text" width="450"><br><br>
 <br><br>
 
 ### 참고사항

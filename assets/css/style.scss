@@ -1,0 +1,14 @@
+/* 'is-collapsible' 클래스 무력화: TOC 하위 목록을 항상 펼치도록 강제 */
+
+// .is-collapsible 클래스가 붙은 ul 태그의 display 속성을 block으로 강제하여
+// JavaScript나 다른 CSS에 의해 숨겨지는 것을 방지합니다.
+#toc-wrapper .toc-list.is-collapsible {
+    display: block !important;
+    visibility: visible !important;
+    height: auto !important;
+  }
+  
+  // 혹시 애니메이션 효과가 남아 있다면 이를 제거합니다.
+  #toc-wrapper .toc-list.is-collapsible {
+    transition: none !important;
+  }
