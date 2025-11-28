@@ -28,10 +28,12 @@ tags: ["Data Structures and Algorithms", "Dynamic Programming"]
 ## 구현방법
 ---
 
-| Bottom-Up                    | Top-Down          	
+| Bottom-Up | Top-Down          	
 | :--------------------------- | :--------------- 
-| Tabulation 방식         		| Memoization 방식 사용     
-| Iteration 사용                | Recursion 사용    
+| Tabulation 방식 | Memoization 방식 사용     
+| Iteration 사용 | Recursion 사용    
+| 작은 문제부터 차례대로 정답을 계산해 테이블에 채워 넣으며 최종 큰 문제의 정답을 구하는 방식 | 큰 문제를 먼저 호출하고, 필요한 작은 문제를 재귀로 내려가며 계산하는 방식
+| cahce(e.g. Array 등)로 중복 제거 | 작은 문제부터 순서대로 dp 테이블(e.g. Array) 채움
 
 ## 참고사항
 ---
@@ -41,7 +43,7 @@ tags: ["Data Structures and Algorithms", "Dynamic Programming"]
 ## 대표문제
 ---
 Bottom-up 예시  
-: **Fibonacchi 수열 --- Optimized Bottom-up**  
+: **Fibonacchi 수열 - Optimized Bottom-up**  
 
 ```python
 # Input: n = 6
