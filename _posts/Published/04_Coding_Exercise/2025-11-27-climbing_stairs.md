@@ -18,7 +18,7 @@ tags: ["Data Structures and Algorithms", "1-D Dynamic Programming"]
 ### 해결방법
 ---
 
-#### **[1] Dynamic Programming(Bottom-Up) — Tabulation & Iteration**<br> 
+#### **[1] DP(Bottom-Up) — Tabulation & Iteration**<br> 
 
 n=5 계단에 가는 것을 목표라고 한다면 5층에 도달하는 모든 방법은 한 걸음 두 걸음(1칸 또는 2칸)에 의해 두 그룹으로 나누어진다고 생각할 수 있습니다.<br>  
 
@@ -64,7 +64,7 @@ def climb_stairs(n):
 ![image](https://github.com/user-attachments/assets/a101229e-587c-4c13-84f7-38f9fc9bf9b3)
 <br><br>
 
-#### **[2] Dynamic Programming(Space-Optimized Bottom-Up)**
+#### **[2] DP(Space-Optimized Bottom-Up)**
 이 경우는 Bottom-up tabulation을 dp배열을 굳이 생성하지 않고 변수 2개로 최적화하여 풀어낸 방법입니다. 사실 코드상으로 보기엔 가장 간단하고 최적화된 방법입니다.<br>  
 
 ```python
@@ -88,7 +88,7 @@ def climb_stairs(n):
 <img src="https://github.com/user-attachments/assets/b307e788-b36c-40de-b371-66ab3d534475" alt="Alt Text" width="400"><br><br>
 
 
-#### **[3] Dynamic Programming(Top-Down) — Memoization & Recuresion**
+#### **[3] DP(Top-Down) — Memoization & Recuresion**
 ```python
 # Input: n = 5
 # Output: 8
