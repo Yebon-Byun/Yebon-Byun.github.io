@@ -134,7 +134,12 @@
   animation: slideDown 0.3s ease;
 }
 
-.modal-media img,
+.modal-media img {
+  width: 50%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
 .modal-media video {
   width: 100%;
   border-radius: 8px;
@@ -191,8 +196,8 @@
 
 #modal-body img {
   max-width: 100%;
-  height: auto;
-  border-radius: 8px;
+  height: max-content;
+  /* border-radius: 8px; */
   margin: 1rem 0;
 }
 
@@ -222,8 +227,69 @@
   margin-bottom: 1rem;
 }
 
+#modal-img {
+  /* 원하는 너비 설정 (예: 50%, 400px 등) */
+  max-width: 60%;
+
+  /* 비율 유지를 위해 높이는 자동 */
+  height: 70%;
+
+  align-self: center;
+
+  /* 이미지가 줄어들었을 때 가운데 정렬 */
+  margin: 20px auto 10px auto;
+  display: block; /* 이미 캡처에 block으로 되어있지만 확실히 하기 위해 */
+}
+
+#modal-video {
+  /* 원하는 너비 설정 (예: 50%, 400px 등) */
+  max-width: 90%;
+
+  /* 비율 유지를 위해 높이는 자동 */
+  height: auto;
+
+  align-self: center;
+
+  /* 이미지가 줄어들었을 때 가운데 정렬 */
+  margin: 20px auto 10px auto;
+  display: block; /* 이미 캡처에 block으로 되어있지만 확실히 하기 위해 */
+}
+
 /* ───────────────────────────────
-   #6. 반응형 디자인
+   #6. 스크롤바 디자인 변경
+─────────────────────────────── */
+
+/* 1. 스크롤바 전체 너비 설정 */
+.modal-content::-webkit-scrollbar {
+  width: 10px; /* 적당한 두께 */
+}
+
+/* 2. 스크롤바 뒷배경(트랙) 설정 */
+.modal-content::-webkit-scrollbar-track {
+  background: transparent; /* 배경 투명하게 (모달 흰색 배경이 보임) */
+
+  /* ✨ 핵심: 위아래에 여백을 줘서 둥근 모서리를 피함 ✨ */
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* 3. 스크롤바 손잡이(Thumb) 설정 */
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: #d1d5db; /* 회색 색상 */
+  border-radius: 10px; /* 손잡이 자체도 둥글게 */
+
+  /* 손잡이와 트랙 사이에 투명 테두리를 줘서 좀 더 얇고 떠있는 느낌 연출 */
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* 4. 손잡이에 마우스 올렸을 때 */
+.modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: #9ca3af; /* 좀 더 진한 회색 */
+}
+
+/* ───────────────────────────────
+   #7. 반응형 디자인
 ─────────────────────────────── */
 @media (max-width: 600px) {
   .skills span {
@@ -237,5 +303,107 @@
 
   .modal-buttons {
     flex-direction: column;
+  }
+}
+
+/* ───────────────────────────────
+   #8. 동적 이미지 뷰어 CSS
+─────────────────────────────── */
+.js-image-viewer {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+  /* ✨ 모달(9999)보다 반드시 높아야 함 */
+  z-index: 20000 !important;
+
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.95);
+  cursor: zoom-out;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.js-image-viewer.show {
+  display: flex !important; /* 강제로 보이게 함 */
+  opacity: 1;
+}
+
+.js-image-viewer img {
+  max-width: 90%;
+  max-height: 90vh;
+  object-fit: contain;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(0.95);
+  transition: transform 0.3s ease;
+}
+
+.js-image-viewer.show img {
+  transform: scale(1);
+}
+
+/* 닫기 버튼 */
+.viewer-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 20001;
+}
+
+/* 마우스 올렸을 때 돋보기 모양 */
+.ig-grid img {
+  cursor: zoom-in;
+}
+
+/* ───────────────────────────────
+   #9. 이미지 뷰어 네비게이션 (좌우 화살표)
+─────────────────────────────── */
+.viewer-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.3); /* 반투명 배경 */
+  color: white;
+  border: none;
+  font-size: 3rem; /* 화살표 크기 */
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 20002; /* 이미지(20000)보다 위에 */
+  transition: background 0.3s;
+  user-select: none; /* 드래그 방지 */
+  border-radius: 8px;
+}
+
+.viewer-nav:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.viewer-nav.prev {
+  left: 20px;
+}
+
+.viewer-nav.next {
+  right: 20px;
+}
+
+/* 모바일에서는 화살표 크기 조절 */
+@media (max-width: 768px) {
+  .viewer-nav {
+    font-size: 2rem;
+    padding: 10px;
+  }
+  .viewer-nav.prev {
+    left: 10px;
+  }
+  .viewer-nav.next {
+    right: 10px;
   }
 }
