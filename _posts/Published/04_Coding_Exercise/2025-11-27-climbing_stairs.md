@@ -17,9 +17,7 @@ tags: ["Data Structures and Algorithms", "1-D Dynamic Programming"]
 
 ### 해결방법
 ---
-
-#### **[1] DP(Bottom-Up) — Tabulation & Iteration**<br> 
-
+#### **[1] DP(Bottom-Up) — Tabulation & Iteration**
 n=5 계단에 가는 것을 목표라고 한다면 5층에 도달하는 모든 방법은 한 걸음 두 걸음(1칸 또는 2칸)에 의해 두 그룹으로 나누어진다고 생각할 수 있습니다.<br>  
 
 마지막 1칸을 올라왔다면 반드시 4층에서 출발을 했을 것이고, 마지막 2칸을 올라왔다면 반드시 3층에서 출발 했을 것입니다. 그렇게 생각했을 때, 결국 5층까지 가는 경우의 수는 

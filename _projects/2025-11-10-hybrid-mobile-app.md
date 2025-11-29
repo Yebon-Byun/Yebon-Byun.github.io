@@ -17,6 +17,19 @@ skills:
   - Docker
   - FileZilla
 ---
+<div class="ig-grid">
+  <div><img src="/assets/img/projects/mobile_app_(1).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(2).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(3).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(4).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(5).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(6).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(7).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(8).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(9).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(10).PNG"></div>
+  <div><img src="/assets/img/projects/mobile_app_(11).PNG"></div>
+</div>
 
 ### Introduction
 Developed a hybrid mobile application for both iOS and Android platforms, designed to support a local community with multimedia services, notifications, and interactive resources. The app features multiple navigation tabs, including video content, hymns, service sections, and announcements.
