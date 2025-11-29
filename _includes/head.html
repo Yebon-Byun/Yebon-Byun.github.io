@@ -125,7 +125,7 @@
   {% include metadata-hook.html %}
 </head>
 
-{% unless page.url == '/about/' %}
+{% unless page.url == '/about/' or page.url == '/projects/' %}
 <style>
   /* 1. 공통 설정 (제목 박스) */
   .content h2,
