@@ -45,8 +45,9 @@ My ultimate goal is to create **human-centered AI services** that make data inte
 <p style="font-size:15px; color:Silver;">Not all coursework pages accessible anymore, as some pages may have expired or been taken down.</p>
 
 ### Machine Learning & Deep Learning
-- [Introduction to Machine Learning (CS 189)](https://people.eecs.berkeley.edu/~jrs/189/)
 - [Introduction to Artificial Intellicence (CS 188)](https://inst.eecs.berkeley.edu/~cs188/fa25/)
+- [Introduction to Machine Learning (CS 189)](https://people.eecs.berkeley.edu/~jrs/189/)
+- Nonlinear and Discrete Optimization (IND ENG 160)
 
 ### Computer Science
 - [The Structure and Interpretation of Computer Programs (CS 61A)](https://cs61a.org/)
