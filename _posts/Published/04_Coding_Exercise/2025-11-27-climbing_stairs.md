@@ -7,17 +7,17 @@ categories: ["Data Structures and Algorithms"]
 tags: ["Data Structures and Algorithms", "1-D Dynamic Programming"]
 ---
 
-### 문제
+## 문제
 ---
 [Climbing Stairs](https://neetcode.io/problems/climbing-stairs/question)
 
-### 내용
+## 내용
 ---
 계단을 한 번 또는 두 번 올라 목표로 하는 계단 n에 도달하는 경우의 수를 구하는 문제입니다.
 
-### 해결방법
+## 해결방법
 ---
-#### **[1] DP(Bottom-Up) — Tabulation & Iteration**
+### **[1] DP(Bottom-Up) — Tabulation & Iteration**
 n=5 계단에 가는 것을 목표라고 한다면 5층에 도달하는 모든 방법은 한 걸음 두 걸음(1칸 또는 2칸)에 의해 두 그룹으로 나누어진다고 생각할 수 있습니다.<br>  
 
 마지막 1칸을 올라왔다면 반드시 4층에서 출발을 했을 것이고, 마지막 2칸을 올라왔다면 반드시 3층에서 출발 했을 것입니다. 그렇게 생각했을 때, 결국 5층까지 가는 경우의 수는 
@@ -62,7 +62,7 @@ def climb_stairs(n):
 ![image](https://github.com/user-attachments/assets/a101229e-587c-4c13-84f7-38f9fc9bf9b3)
 <br><br>
 
-#### **[2] DP(Space-Optimized Bottom-Up)**
+### **[2] DP(Space-Optimized Bottom-Up)**
 이 경우는 Bottom-up tabulation을 dp배열을 굳이 생성하지 않고 변수 2개로 최적화하여 풀어낸 방법입니다. 사실 코드상으로 보기엔 가장 간단하고 최적화된 방법입니다.<br>  
 
 ```python
@@ -85,7 +85,7 @@ def climb_stairs(n):
 [1],[2] 해결 방법들을 보면 피보나치 수열의 진행, 계산 방식과 동일함을 알 수 있습니다. 피보나치 수열의 계산은 첫 번째 두 번째가 1로 세팅이 되는 것을 떠올린다면, 이 해결방법 또한 초기 두 수의 세팅을 통해 결과값을 계산해낼 수 있음을 알 수 있습니다.  
 <img src="https://github.com/user-attachments/assets/aaa0fb00-b021-48d6-ba9e-f4ccdeef4232" alt="Alt Text" width="400">
 
-#### **[3] DP(Top-Down) — Memoization & Recuresion**
+### **[3] DP(Top-Down) — Memoization & Recuresion**
 ```python
 # Input: n = 5
 # Output: 8
@@ -109,9 +109,9 @@ def climb_stairs(n):
 <img src="https://github.com/user-attachments/assets/4a616157-5113-497d-ba62-ac87c637fdff" alt="Alt Text" width="450"><br><br>
 <br><br>
 
-### 참고사항
+## 참고사항
 ---
-#### Q. Top-down 방식도 dfs(0), dfs(1), dfs(2)... 이런식으로 진행되면 결국 Bottom-up 방식 아닌가요?  
+### Q. Top-down 방식도 dfs(0), dfs(1), dfs(2)... 이런식으로 진행되면 결국 Bottom-up 방식 아닌가요?  
 > 재귀에는 **호출방향(call direction)** 그리고 **값이 계산되는 반환 방향(return direction)** 이 있습니다.  
 
 >비록 Top-down, memoization 방식의 반환 결과가 Bottom-up처럼 보이지만 호출 자체는 '큰 문제 ➡ 작은 문제' 방식이기 때문에 이 알고리즘은 Top-down memoization 방식으로 분류됩니다. 호출 방향을 기준으로 합니다.
