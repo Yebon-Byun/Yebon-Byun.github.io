@@ -8,6 +8,17 @@ tags: ["Not Classified", "Projects", "Web Development", "Front-end", "Back-end",
 image: https://github.com/user-attachments/assets/89c0a545-0fdf-4038-bf5e-cc6c0ee0c3b5
 ---
 
+## 배경
+---
+회의 또는 수업에서 사용 가능한 AI Note 서비스 프로젝트를 진행하고 있습니다. 현재 화자 분리, 소음 제거, 번역 및 요약에 대한 AI 모델은 준비되어 있지만, 이 기술들을 적용 및 테스트를 위한 페이지(데모)가 필요합니다. 개발에 앞서 기술 스택들의 특징과 장단점을 비교하며 정리해보려 합니다.
+
+글을 작성한 이후에는 변경이 될 수도 있겠지만 예상하고 있는 기술스택은 아래와 같습니다.
+
+`Architecture`: MVT(Model-View-Template)  
+`Front-end`: React  
+`Back-end`: Django OR Flask  
+`Deployment`: Docker +  Nginx  
+
 ## Front-end
 ---
 ### UI(User Ineterface):  
