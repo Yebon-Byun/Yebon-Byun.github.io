@@ -34,7 +34,7 @@ My ultimate goal is to create **human-centered AI services** that make data inte
   <div>
     <strong>University of California, Berkeley</strong><br>
     B.A. in Data Science (Applied Mathematics &amp; Modeling)<br>
-    <em>Expected Graduation: August 2026 (included summer sessions)</em><br>
+    <em>Graduation: May 2026</em><br>
     <a href="/assets/resume/Resume_Yebon_Byun.pdf" target="_blank" class="resume-btn"> <b>Resume</b> </a>
   </div>
 </div>
